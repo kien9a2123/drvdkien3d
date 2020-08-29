@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>网盘直链下载</title>
+	<title>Download File Google Drive</title>
 </head>
 <body>
 <?php
@@ -32,7 +32,7 @@
 			echo $direct_link;
 		}
 		else{
-			echo "获取直链失败，请刷新重试";
+			echo "Lỗi lấy ID link hoặc link chưa công khai";
 		}
 	}
 	//蓝奏云直链下载
@@ -44,7 +44,7 @@
 			header("Location: $direct_link"); //直接跳转到下载链接
 		}
 		else{
-			echo "获取直链失败，请刷新重试";
+			echo "Loi";
 		}
 	}
 	//360直链下载
@@ -59,9 +59,9 @@
 			$site_name = "http://getdrive.trungkien.design/";
 		}
 		echo "
-		<h1>DriveDirectLink</h1>
+		<h1>DriveDownload Nhanh Gọn</h1>
 
-		<p>DriveDirectLink 网盘直链下载，支持谷歌，蓝奏云</p>
+		<p>By Trung Kiên 3D</p>
 		
 		<h2>Hỗ trợ tải xuống Google Drive file</h2>
 		
@@ -85,7 +85,7 @@
 		<code>
 		".$site_name."?id=1TSlvfrRrGrT8a_84iFDIkSwrxU_53D6T
 		</code></p>
-		项目地址:<a href=\"https://m.me/kiendct3d\"> https://</a>
+		Facebook:<a href=\"https://m.me/kiendct3d\"> https://</a>
 
 		";
 	}
