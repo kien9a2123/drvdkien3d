@@ -85,7 +85,7 @@
 		<code>
 		".$site_name."?id=1TSlvfrRrGrT8a_84iFDIkSwrxU_53D6T
 		</code></p>
-		Facebook:<a href=\"https://m.me/kiendct3d\"> https://</a>
+		Facebook:<a href=\"https://m.me/kiendct3d\">Báo lỗi với admin Trung Kiên</a>
 
 		";
 	}
